@@ -45,7 +45,7 @@
      ![Exemple d'image](Images/bellman_resul.png)
 
      La politique optimale :
-      ![Exemple d'image](Images/bellman_resul.png)
+      ![Exemple d'image](Images/bellman_resul-png.png)
 
 Les valeurs minimales de q ont été améliorées par rapport à la première expérience. Cela
  peut être dû au fait que nous avons modifié Gamma, ce qui a conduit à des couts plus
@@ -57,16 +57,16 @@ Les valeurs minimales de q ont été améliorées par rapport à la première ex
 1. Taux d'apprentissage fixe : 0.9 et 0.1
    Résultats pour un Taux d'apprentissage = 0.9 et différents valeurs de lambda
    (taux moyen d’arrivées de paquets par unité de temps) 
-    ![Exemple d'image](Images/bellman_resul.png)
+    ![Exemple d'image](sarsa1.png)
 
    Résultats pour un Taux d'apprentissage = 0.1 et différents valeurs de lambda
    (taux moyen d’arrivées de paquets par unité de temps)
-    ![Exemple d'image](Images/bellman_resul.png)
+    ![Exemple d'image](sarsa2.png)
 
 2. Taux d'apprentissage variable :
 
    Visualisation des qvaleurs min :
-   ![Exemple d'image](Images/bellman_resul.png)
+   ![Exemple d'image](Images/sarsaResVar.png)
    
 On a constaté que la stratégie de la décroissance exponentielle du taux d’apprentis
 sage a entraîné une amélioration significative des q-valeurs. Par conséquent, elle vise à réduire
@@ -74,5 +74,5 @@ sage a entraîné une amélioration significative des q-valeurs. Par conséquent
  obtenue à la fin, ce qui indique une amélioration par rapport à la situation où alpha est fixe   
 ## Q-learning : 
 1. Résultats obtenus avec deux probabilités distincts :
- ![Exemple d'image](Images/qlearning.png)
+ ![Exemple d'image](qlearning.png)
  
