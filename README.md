@@ -76,3 +76,5 @@ sage a entraîné une amélioration significative des q-valeurs. Par conséquent
 1. Résultats obtenus avec deux probabilités distincts :
  ![Exemple d'image](qlearning.png)
  
+->  La mise en place de l’algorithme Q-learning a permis de donner des résultats de minimi
+sation des couts plus performants grace à l’approche hors politique sur laquelle il repose
